@@ -1,0 +1,57 @@
+.dashboard {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5em;
+      border: 4px solid #12fcff;
+      box-shadow: 
+          0 0 10px #00d5ff,
+          0 0 20px #00d5ff,
+          inset 0 0 10px #00d5ff,
+          inset 0 0 20px #00d5ff; 
+          transition: border 0.3s, box-shadow 0.3s;
+  }
+  .dashboard:hover{
+    border: 4px solid #8500b2;
+    box-shadow: 
+          0 0 10px #8500b2,
+          0 0 20px #8500b2,
+          inset 0 0 10px #8500b2,
+          inset 0 0 20px #8500b2;
+    transition: 0.3s; 
+  }
+  .welcome{
+    padding-bottom: 3em;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    /* Add more styles as needed */
+  }
+  
+  .input-playlist {
+      width: 100%;
+      max-width: 20em;
+      padding: 0.5em;
+      margin-bottom: 1em;
+      border: 4px solid #ccc;
+      border-radius: 0.25em;
+      background: linear-gradient(#2c003b, #23012f);
+      cursor: pointer;
+      border-color: #12fcff;
+      box-shadow: 
+          0 0 5px #00d5ff,
+          0 0 10px #00d5ff,
+          inset 0 0 5px #00d5ff,
+          inset 0 0 10px #00d5ff; 
+  }
+  
+  .scroll-section {
+    overflow-y: scroll;
+    /* Add more styles as needed */
+  }
